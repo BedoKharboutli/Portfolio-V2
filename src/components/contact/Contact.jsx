@@ -3,7 +3,7 @@ import './contact.css'
 
 export default function Contact() {
   return (
-    <div className='tags'>
+    <div className='tags' id='contact'>
 
       <h2>You can find me on these social platforms:</h2>
       <br /><br />

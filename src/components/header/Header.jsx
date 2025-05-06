@@ -20,9 +20,10 @@ export default function Header() {
       <nav className='nav'>
         <ul className='flex'>
 
-          <li> <a href="">HOME</a> </li>
-          <li> <a href="">PROJECTS</a> </li>
-          <li> <a href="">CONTACT</a> </li>
+        <a href="#home">HOME</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+
 
         </ul>
       </nav>

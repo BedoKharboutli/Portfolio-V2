@@ -50,3 +50,6 @@ a:hover{
 
 button {all: unset;}
 
+html {
+    scroll-behavior: smooth;
+  }

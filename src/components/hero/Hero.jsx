@@ -21,6 +21,8 @@ export default function Hero() {
                 (IoT). Through my experiences, I have gained a distinct viewpoint and a
                 comprehensive range of technical abilities, enabling me to address intricate
                 problems and create innovative solutions on a worldwide scale. </p>
+                <h6>Email: Bedo.kharboutli@hotmail.com <br />Phone Number: 0729086978 <br />Adress: Sweden, Malmö </h6>
+  
       </div>
 
       <div className='right-section'>
@@ -80,7 +82,7 @@ export default function Hero() {
       {/* Projects container ___________________________________________________ */}
 
 
-<div className='projects-sec'>
+<div className='projects-sec' id='projects' >
   <h2 className='section-title my-skills'>My Projects</h2>
   
   <div className='projects-grid '>

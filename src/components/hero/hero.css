@@ -28,6 +28,7 @@ section.hero .right-section{
 }
 
 .title{
+    color: #f9f9f9f3;
     font-size: 3rem;
     line-height: 3rem;
 }
@@ -40,6 +41,7 @@ section.hero .right-section{
 
 .animation1{
     width: 400px;
+    translate: 0px 50px;
     
 
 }

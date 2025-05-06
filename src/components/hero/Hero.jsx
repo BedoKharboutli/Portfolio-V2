@@ -1,6 +1,6 @@
 import React from 'react'
 import Lottie from "lottie-react";
-import codeAnimation from '../../../public/onezero.json'
+import codeAnimation from '../../../public/mmm.json'
 import './hero.css'
 
 

@@ -103,9 +103,9 @@ export default function Hero() {
     
     <div className='project-card'>
       <h3 className='project-title'>API Weather App</h3>
-      <img className='todo-img' src="./sooner.jpg" alt="" />
-      <p className='project-desc'>A simple todo app with authentication and real-time sync using Firebase <br/> <br /> A simple todo app with authentication and real-time sync using Firebase. <br /></p>
-      <a href='https://your-link.com' target='_blank' rel='noreferrer' className='view-btn'>View Project</a>
+      <img className='weather-img' src="./weath.jpg" alt="" />
+      <p className='project-desc'>A responsive weather app built with React that allows users to search for current weather conditions by city. <br /> <br /> It fetches real-time weather data from the OpenWeatherMap API.</p>
+      <a href='https://api-weather-app-gray.vercel.app/' target='_blank' rel='noreferrer' className='view-btn'>View Project</a>
     </div>
     
 

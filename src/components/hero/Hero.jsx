@@ -102,7 +102,7 @@ export default function Hero() {
     </div>
     
     <div className='project-card'>
-      <h3 className='project-title'>Todo App</h3>
+      <h3 className='project-title'>API Weather App</h3>
       <img className='todo-img' src="./sooner.jpg" alt="" />
       <p className='project-desc'>A simple todo app with authentication and real-time sync using Firebase <br/> <br /> A simple todo app with authentication and real-time sync using Firebase. <br /></p>
       <a href='https://your-link.com' target='_blank' rel='noreferrer' className='view-btn'>View Project</a>

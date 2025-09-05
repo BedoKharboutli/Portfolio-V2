@@ -17,8 +17,7 @@ export default function Hero() {
         <img className='vari' src="./vari.png" alt="" />
         <h1 className='title'> Junior Fullstack Developer</h1>
         <p className='sub-title'>My name is Abdulrahman Kharboutli, I have a strong interest in technology and a diverse multicultural background, I
-                have developed expertise in Information Technology (IT) and the Internet of Things
-                (IoT). Through my experiences, I have gained a distinct viewpoint and a
+                have developed expertise in Software Development and AI Automations. Through my experiences, I have gained a distinct viewpoint and a
                 comprehensive range of technical abilities, enabling me to address intricate
                 problems and create innovative solutions on a worldwide scale. </p>
                 <h6>Email: Bedo.kharboutli@hotmail.com <br />Phone Number: 0729086978 <br />Adress: Sweden, Malmö </h6>
@@ -49,6 +48,7 @@ export default function Hero() {
                 <li>React</li>
                 <li>HTML</li>
                 <li>CSS</li>
+                <li>Tailwind</li>
                 <li>Bootstrap</li>
               </ul>
             </div>
@@ -58,6 +58,8 @@ export default function Hero() {
               <ul>
                 <li>Python</li>
                 <li>Flask</li>
+                <li>TS</li>
+                <li>Next.js</li>
                 <li>Docker</li>
                 <li>Postman</li>
                 <li>REST APIs</li>
@@ -68,6 +70,7 @@ export default function Hero() {
             <div className="other-sec">
               <h3>Other Skills</h3>
               <ul>
+                <li>N8N</li>
                 <li>Git</li>
                 <li>Visual studio</li>
                 <li>Bitbucket</li>
@@ -86,6 +89,15 @@ export default function Hero() {
   <h2 className='section-title my-skills'>My Projects</h2>
   
   <div className='projects-grid '>
+
+    <div className='project-card '>
+      <h3 className='project-title'>Interactive 3D Solar System</h3>
+      <img className='food-img' src="/public/tyty.jpg" alt="" />
+      <p className='project-desc'>Space exploration platform featuring a stunning 3D solar system visualization <br /> <br /> Real NASA planetary data integration and other features. </p>
+      <br />
+      <a href='https://falak-space-app.vercel.app/' target='_blank' rel='noreferrer' className='view-btn'>View Project</a>
+    </div>
+
     <div className='project-card '>
       <h3 className='project-title'>Food Recipe Platform</h3>
       <img className='food-img' src="https://t3.ftcdn.net/jpg/02/52/12/40/360_F_252124067_aCtp9ZD934RboKmjJzkXiwYDL7XkNjpn.jpg" alt="" />

@@ -92,7 +92,7 @@ export default function Hero() {
 
     <div className='project-card '>
       <h3 className='project-title'>Interactive 3D Solar System</h3>
-      <img className='food-img' src="/public/tyty.jpg" alt="" />
+      <img className='food-img' src="https://static.scientificamerican.com/dam/m/128e9a2bf8a1939/original/DM0HT8_WEB.jpg?m=1714676104.168&w=1200" alt="" />
       <p className='project-desc'>Space exploration platform featuring a stunning 3D solar system visualization <br /> <br /> Real NASA planetary data integration and other features. </p>
       <br />
       <a href='https://falak-space-app.vercel.app/' target='_blank' rel='noreferrer' className='view-btn'>View Project</a>

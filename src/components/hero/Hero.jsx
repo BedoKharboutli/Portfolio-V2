@@ -20,7 +20,7 @@ export default function Hero() {
           <h1 className='hero-title'>
             Hi, I'm <span className='gradient-text'>Abdulrahman</span>
             <br />
-            Fullstack Developer
+            Junior Developer
           </h1>
           
           <p className='hero-description'>

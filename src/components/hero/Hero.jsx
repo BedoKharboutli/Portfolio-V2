@@ -1,11 +1,15 @@
 import React from 'react'
 import './hero.css'
+import { BackgroundAnimationController } from './BackgroundAnimations'
 
 export default function Hero() {
   return (
     <>
     {/* Hero Section */}
     <section className='hero' id='home'>
+      {/* Background Animation */}
+      <BackgroundAnimationController animationType="particles" />
+      
       <div className='hero-content'>
         <div className='hero-text'>
           <div className='hero-badge'>

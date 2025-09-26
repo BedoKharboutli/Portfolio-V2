@@ -1,129 +1,256 @@
 import React from 'react'
-import Lottie from "lottie-react";
-import codeAnimation from '../../../public/mmm.json'
 import './hero.css'
-
-
-
 
 export default function Hero() {
   return (
     <>
-    {/* Hero container ___________________________________________________ */}
-    <section className='hero flex'>
-      <div className='left-section'>
-
-        <img className='image' src='./sora.png' alt="" />
-        <img className='vari' src="./vari.png" alt="" />
-        <h1 className='title'> Junior Fullstack Developer</h1>
-        <p className='sub-title'>My name is Abdulrahman Kharboutli, I have a strong interest in technology and a diverse multicultural background, I
-                have developed expertise in Software Development and AI Automations. Through my experiences, I have gained a distinct viewpoint and a
-                comprehensive range of technical abilities, enabling me to address intricate
-                problems and create innovative solutions on a worldwide scale. </p>
-                <h6>Email: Bedo.kharboutli@hotmail.com <br />Phone Number: 0729086978 <br />Adress: Sweden, Malmö </h6>
-  
-      </div>
-
-      <div className='right-section'>
-
-          <Lottie className='animation1' animationData={codeAnimation} />
-      </div>
-      
-      
-    </section>
-
-      <br /> <br /> <br /> <br /> <br /> <br />
-
-    {/* Skills container ___________________________________________________ */}
-
-
-      <div className="skills">
-          <h2 className='my-skills'>My Skills</h2>
+    {/* Hero Section */}
+    <section className='hero' id='home'>
+      <div className='hero-content'>
+        <div className='hero-text'>
+          <div className='hero-badge'>
+            <span className='badge-dot'></span>
+            Available for work
+          </div>
           
-          <div className="skills-container">
-            <div className="front-sec">
-              <h3>Frontend</h3>
-              <ul>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Tailwind</li>
-                <li>Bootstrap</li>
-              </ul>
+          <h1 className='hero-title'>
+            Hi, I'm <span className='gradient-text'>Abdulrahman</span>
+            <br />
+            Fullstack Developer
+          </h1>
+          
+          <p className='hero-description'>
+            I specialize in creating exceptional digital experiences through modern web technologies 
+            and AI automation. With a multicultural background and passion for innovation, I build 
+            scalable solutions that solve real-world problems.
+          </p>
+          
+          <br /> <br /> <br />
+          
+          <div className='hero-actions'>
+            <a href="#projects" className='btn-primary'>
+              View My Work
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </a>
+            <a href="#contact" className='btn-secondary'>
+              Get In Touch
+            </a>
+          </div>
+        </div>
+
+        <div className='hero-visual'>
+          <div className='profile-container'>
+            <img className='profile-image' src='./sora.png' alt="Abdulrahman Kharboutli" />
+            <div className='profile-glow'></div>
+          </div>
+          
+          <div className='floating-elements'>
+            <div className='floating-card tech-card'>
+              <div className='card-icon'>⚡</div>
+              <div className='card-text'>
+                <div className='card-title'>Fast Development</div>
+                <div className='card-subtitle'>Optimized workflows</div>
+              </div>
             </div>
             
-            <div className="back-sec">
-              <h3>Backend</h3>
-              <ul>
-                <li>Python</li>
-                <li>Flask</li>
-                <li>TS</li>
-                <li>Next.js</li>
-                <li>Docker</li>
-                <li>Postman</li>
-                <li>REST APIs</li>
-                <li>MySQL</li>
-              </ul>
+            <div className='floating-card design-card'>
+              <div className='card-icon'>🎨</div>
+              <div className='card-text'>
+                <div className='card-title'>Modern Design</div>
+                <div className='card-subtitle'>User-centered approach</div>
+              </div>
             </div>
-
-            <div className="other-sec">
-              <h3>Other Skills</h3>
-              <ul>
-                <li>N8N</li>
-                <li>Git</li>
-                <li>Visual studio</li>
-                <li>Bitbucket</li>
-                <li>GitHub</li>
-                <li>CI/CD</li>
-              </ul>
+            
+            <div className='floating-card ai-card'>
+              <div className='card-icon'>🤖</div>
+              <div className='card-text'>
+                <div className='card-title'>AI Integration</div>
+                <div className='card-subtitle'>Smart automation</div>
+              </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    {/* Skills Section */}
+    <section className="skills-section">
+      <div className="section-header">
+        <h2 className='section-title'>Technical Expertise</h2>
+        <p className='section-subtitle'>Technologies I work with to bring ideas to life</p>
       </div>
       
+      <div className="skills-grid">
+        <div className="skill-category">
+          <div className="category-header">
+            <div className="category-icon">🎨</div>
+            <h3 className="category-title">Frontend</h3>
+          </div>
+          <div className="skills-list">
+            <span className="skill-tag">JavaScript</span>
+            <span className="skill-tag">React</span>
+            <span className="skill-tag">HTML5</span>
+            <span className="skill-tag">CSS3</span>
+            <span className="skill-tag">Tailwind CSS</span>
+            <span className="skill-tag">Bootstrap</span>
+          </div>
+        </div>
+        
+        <div className="skill-category">
+          <div className="category-header">
+            <div className="category-icon">⚙️</div>
+            <h3 className="category-title">Backend</h3>
+          </div>
+          <div className="skills-list">
+            <span className="skill-tag">Python</span>
+            <span className="skill-tag">Flask</span>
+            <span className="skill-tag">TypeScript</span>
+            <span className="skill-tag">Next.js</span>
+            <span className="skill-tag">Docker</span>
+            <span className="skill-tag">REST APIs</span>
+            <span className="skill-tag">MySQL</span>
+          </div>
+        </div>
 
-      {/* Projects container ___________________________________________________ */}
+        <div className="skill-category">
+          <div className="category-header">
+            <div className="category-icon">🛠️</div>
+            <h3 className="category-title">Tools & DevOps</h3>
+          </div>
+          <div className="skills-list">
+            <span className="skill-tag">Git</span>
+            <span className="skill-tag">GitHub</span>
+            <span className="skill-tag">Cursor</span>
+            <span className="skill-tag">Bitbucket</span>
+            <span className="skill-tag">VS Code</span>
+            <span className="skill-tag">Postman</span>
+            <span className="skill-tag">CI/CD</span>
+            <span className="skill-tag">N8N</span>
+          </div>
+        </div>
+      </div>
+    </section>
+      
 
+    {/* Projects Section */}
+    <section className='projects-section' id='projects'>
+      <div className="section-header">
+        <h2 className='section-title'>Featured Projects</h2>
+        <p className='section-subtitle'>A showcase of my recent work and technical capabilities</p>
+      </div>
+      
+      <div className='projects-grid'>
+        <div className='project-card'>
+          <div className='project-image-container'>
+            <img className='project-image' src="https://static.scientificamerican.com/dam/m/128e9a2bf8a1939/original/DM0HT8_WEB.jpg?m=1714676104.168&w=1200" alt="3D Solar System" />
+            <div className='project-overlay'>
+              <div className='project-tech-stack'>
+                <span className='tech-tag'>React</span>
+                <span className='tech-tag'>Three.js</span>
+                <span className='tech-tag'>NASA API</span>
+              </div>
+            </div>
+          </div>
+          <div className='project-content'>
+            <h3 className='project-title'>Interactive 3D Solar System</h3>
+            <p className='project-description'>
+              Space exploration platform featuring stunning 3D solar system visualization with real NASA planetary data integration and interactive features.
+            </p>
+            <div className='project-actions'>
+              <a href='https://falak-space-app.vercel.app/' target='_blank' rel='noreferrer' className='btn-primary'>
+                Live Demo
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                  <path d="M18 13V19C18 19.5304 17.7893 20.0391 17.4142 20.4142C17.0391 20.7893 16.5304 21 16 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V8C3 7.46957 3.21071 6.96086 3.58579 6.58579C3.96086 6.21071 4.46957 6 5 6H11M15 3H21V9M10 14L21 3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
 
-<div className='projects-sec' id='projects' >
-  <h2 className='section-title my-skills'>My Projects</h2>
-  
-  <div className='projects-grid '>
+        <div className='project-card'>
+          <div className='project-image-container'>
+            <img className='project-image' src="https://t3.ftcdn.net/jpg/02/52/12/40/360_F_252124067_aCtp9ZD934RboKmjJzkXiwYDL7XkNjpn.jpg" alt="Recipe Platform" />
+            <div className='project-overlay'>
+              <div className='project-tech-stack'>
+                <span className='tech-tag'>Python</span>
+                <span className='tech-tag'>Flask</span>
+                <span className='tech-tag'>SQLite</span>
+              </div>
+            </div>
+          </div>
+          <div className='project-content'>
+            <h3 className='project-title'>Food Recipe Platform</h3>
+            <p className='project-description'>
+              Full-stack web application for storing and managing food recipes with user authentication and search functionality.
+            </p>
+            <div className='project-actions'>
+              <a href='https://recipe-platform-my2aml003-bedokharboutlis-projects.vercel.app/' target='_blank' rel='noreferrer' className='btn-primary'>
+                Live Demo
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                  <path d="M18 13V19C18 19.5304 17.7893 20.0391 17.4142 20.4142C17.0391 20.7893 16.5304 21 16 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V8C3 7.46957 3.21071 6.96086 3.58579 6.58579C3.96086 6.21071 4.46957 6 5 6H11M15 3H21V9M10 14L21 3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
 
-    <div className='project-card '>
-      <h3 className='project-title'>Interactive 3D Solar System</h3>
-      <img className='food-img' src="https://static.scientificamerican.com/dam/m/128e9a2bf8a1939/original/DM0HT8_WEB.jpg?m=1714676104.168&w=1200" alt="" />
-      <p className='project-desc'>Space exploration platform featuring a stunning 3D solar system visualization <br /> <br /> Real NASA planetary data integration and other features. </p>
-      <br />
-      <a href='https://falak-space-app.vercel.app/' target='_blank' rel='noreferrer' className='view-btn'>View Project</a>
-    </div>
-
-    <div className='project-card '>
-      <h3 className='project-title'>Food Recipe Platform</h3>
-      <img className='food-img' src="https://t3.ftcdn.net/jpg/02/52/12/40/360_F_252124067_aCtp9ZD934RboKmjJzkXiwYDL7XkNjpn.jpg" alt="" />
-      <p className='project-desc'>Developed a web application to store and manage food recipes. <br /> <br />  <strong>Tech stack:</strong> Python SQLite APIs Docker Bootstrap Flask  JS.</p>
-      <br />
-      <a href='https://recipe-platform-my2aml003-bedokharboutlis-projects.vercel.app/' target='_blank' rel='noreferrer' className='view-btn'>View Project</a>
-    </div>
-
-    <div className='project-card'>
-      <h3 className='project-title'>Snake Game</h3>
-      <img className='food-img' src="./snake.jpg" alt="" />
-      <p className='project-desc'>A classic Snake game built using HTML, CSS, and JavaScript. Control the snake, eat the food,  <br/> <br /> and try to get the highest score without hitting the walls or yourself!.</p>
-      <a href='https://bedokharboutli.github.io/snakegame-JS/' target='_blank' rel='noreferrer' className='view-btn'>View Project</a>
-    </div>
-    
-    <div className='project-card'>
-      <h3 className='project-title'>API Weather App</h3>
-      <img className='weather-img' src="./weath.jpg" alt="" />
-      <p className='project-desc'>A responsive weather app built with React that allows users to search for current weather conditions by city. <br /> <br /> It fetches real-time weather data from the OpenWeatherMap API.</p>
-      <a href='https://api-weather-app-gray.vercel.app/' target='_blank' rel='noreferrer' className='view-btn'>View Project</a>
-    </div>
-    
-
-    {/* Add more cards as needed */}
-  </div>
-</div>
+        <div className='project-card'>
+          <div className='project-image-container'>
+            <img className='project-image' src="./snake.jpg" alt="Snake Game" />
+            <div className='project-overlay'>
+              <div className='project-tech-stack'>
+                <span className='tech-tag'>JavaScript</span>
+                <span className='tech-tag'>HTML5</span>
+                <span className='tech-tag'>CSS3</span>
+              </div>
+            </div>
+          </div>
+          <div className='project-content'>
+            <h3 className='project-title'>Snake Game</h3>
+            <p className='project-description'>
+              Classic Snake game with modern styling, smooth animations, and responsive controls for an engaging gaming experience.
+            </p>
+            <div className='project-actions'>
+              <a href='https://bedokharboutli.github.io/snakegame-JS/' target='_blank' rel='noreferrer' className='btn-primary'>
+                Play Game
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                  <path d="M18 13V19C18 19.5304 17.7893 20.0391 17.4142 20.4142C17.0391 20.7893 16.5304 21 16 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V8C3 7.46957 3.21071 6.96086 3.58579 6.58579C3.96086 6.21071 4.46957 6 5 6H11M15 3H21V9M10 14L21 3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div className='project-card'>
+          <div className='project-image-container'>
+            <img className='project-image' src="./weath.jpg" alt="Weather App" />
+            <div className='project-overlay'>
+              <div className='project-tech-stack'>
+                <span className='tech-tag'>React</span>
+                <span className='tech-tag'>API</span>
+                <span className='tech-tag'>CSS3</span>
+              </div>
+            </div>
+          </div>
+          <div className='project-content'>
+            <h3 className='project-title'>Weather App</h3>
+            <p className='project-description'>
+              Responsive weather application with real-time data from OpenWeatherMap API, featuring location search and detailed forecasts.
+            </p>
+            <div className='project-actions'>
+              <a href='https://api-weather-app-gray.vercel.app/' target='_blank' rel='noreferrer' className='btn-primary'>
+                Live Demo
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                  <path d="M18 13V19C18 19.5304 17.7893 20.0391 17.4142 20.4142C17.0391 20.7893 16.5304 21 16 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V8C3 7.46957 3.21071 6.96086 3.58579 6.58579C3.96086 6.21071 4.46957 6 5 6H11M15 3H21V9M10 14L21 3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
   

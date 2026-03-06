@@ -126,14 +126,16 @@ export default function Hero() {
             <h3 className="category-title">Tools & DevOps</h3>
           </div>
           <div className="skills-list">
+            <span className="skill-tag">N8N</span>
             <span className="skill-tag">Git</span>
-            <span className="skill-tag">GitHub</span>
+            <span className="skill-tag">Github</span>
+            <span className="skill-tag">Claude Code</span>
             <span className="skill-tag">Cursor</span>
             <span className="skill-tag">Bitbucket</span>
             <span className="skill-tag">VS Code</span>
             <span className="skill-tag">Postman</span>
             <span className="skill-tag">CI/CD</span>
-            <span className="skill-tag">N8N</span>
+            
           </div>
         </div>
 
@@ -143,12 +145,13 @@ export default function Hero() {
             <h3 className="category-title">AI</h3>
           </div>
           <div className="skills-list">
+            <span className="skill-tag">AI Agents</span>
             <span className="skill-tag">LLMs</span>
             <span className="skill-tag">RAG System</span>
             <span className="skill-tag">Prompt Engineering</span>
             <span className="skill-tag">LangChain</span>
             <span className="skill-tag">Vector Databases</span>
-            <span className="skill-tag">AI Agents</span>
+            
           </div>
         </div>
       </div>

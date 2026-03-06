@@ -94,6 +94,7 @@ export default function Hero() {
           </div>
           <div className="skills-list">
             <span className="skill-tag">JavaScript</span>
+            <span className="skill-tag">Next.js</span>
             <span className="skill-tag">React</span>
             <span className="skill-tag">HTML5</span>
             <span className="skill-tag">CSS3</span>
@@ -111,8 +112,9 @@ export default function Hero() {
             <span className="skill-tag">Python</span>
             <span className="skill-tag">Flask</span>
             <span className="skill-tag">TypeScript</span>
-            <span className="skill-tag">Next.js</span>
+            <span className="skill-tag">Trcp</span>
             <span className="skill-tag">Docker</span>
+            <span className="skill-tag">Convex</span>
             <span className="skill-tag">REST APIs</span>
             <span className="skill-tag">MySQL</span>
           </div>
@@ -134,6 +136,21 @@ export default function Hero() {
             <span className="skill-tag">N8N</span>
           </div>
         </div>
+
+        <div className="skill-category">
+          <div className="category-header">
+            <div className="category-icon">🤖</div>
+            <h3 className="category-title">AI</h3>
+          </div>
+          <div className="skills-list">
+            <span className="skill-tag">LLMs</span>
+            <span className="skill-tag">RAG System</span>
+            <span className="skill-tag">Prompt Engineering</span>
+            <span className="skill-tag">LangChain</span>
+            <span className="skill-tag">Vector Databases</span>
+            <span className="skill-tag">AI Agents</span>
+          </div>
+        </div>
       </div>
     </section>
       
@@ -146,6 +163,35 @@ export default function Hero() {
       </div>
       
       <div className='projects-grid'>
+        <div className='project-card'>
+          <div className='project-image-container'>
+            <img className='project-image' src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&auto=format&fit=crop&q=60" alt="HomeKod" />
+            <div className='project-overlay'>
+              <div className='project-tech-stack'>
+                <span className='tech-tag'>Next.js</span>
+                <span className='tech-tag'>React</span>
+                <span className='tech-tag'>Tailwind CSS</span>
+                <span className='tech-tag'>Convex</span>
+                <span className='tech-tag'>Better Auth</span>
+              </div>
+            </div>
+          </div>
+          <div className='project-content'>
+            <h3 className='project-title'>HomeKod</h3>
+            <p className='project-description'>
+              AI-powered code reviewer that analyzes your code and provides intelligent feedback to improve quality, catch bugs, and enforce best practices.
+            </p>
+            <div className='project-actions'>
+              <a href='https://homekod.vercel.app/' target='_blank' rel='noreferrer' className='btn-primary'>
+                Live Demo
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                  <path d="M18 13V19C18 19.5304 17.7893 20.0391 17.4142 20.4142C17.0391 20.7893 16.5304 21 16 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V8C3 7.46957 3.21071 6.96086 3.58579 6.58579C3.96086 6.21071 4.46957 6 5 6H11M15 3H21V9M10 14L21 3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
         <div className='project-card'>
           <div className='project-image-container'>
             <img className='project-image' src="https://static.scientificamerican.com/dam/m/128e9a2bf8a1939/original/DM0HT8_WEB.jpg?m=1714676104.168&w=1200" alt="3D Solar System" />

@@ -20,13 +20,12 @@ export default function Hero() {
           <h1 className='hero-title'>
             Hi, I'm <span className='gradient-text'>Bedo Kharboutli</span>
             <br />
-            Junior Developer
+            AI Developer
           </h1>
           
           <p className='hero-description'>
-            I specialize in creating exceptional digital experiences through modern web technologies 
-            and AI automation. With a multicultural background and passion for innovation, I build 
-            scalable solutions that solve real-world problems.
+            I specialize in building intelligent AI solutions, agentic workflows, and automation systems using modern technologies.
+            I develop scalable AI-powered applications that solve real-world problems, streamline processes, and create measurable business value.
           </p>
           
           <br /> <br /> <br />
